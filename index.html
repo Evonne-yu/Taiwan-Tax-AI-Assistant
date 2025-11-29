@@ -88,7 +88,13 @@
             @apply flex-grow p-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 transition disabled:bg-gray-100;
         }
         .lang-selector {
-           @apply h-12 px-4 border border-gray-300 rounded-full bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-400 cursor-pointer;
+           @apply h-12 px-4 border border-gray-300 rounded-full bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-400 cursor-pointer;
+           color: #000000;
+        }
+        /* Explicitly style options to ensure visibility in all browsers/modes */
+        .lang-selector option {
+            color: #000000;
+            background-color: #ffffff;
         }
         .mic-button {
             @apply w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center text-white transition-colors duration-300 disabled:bg-gray-400;
