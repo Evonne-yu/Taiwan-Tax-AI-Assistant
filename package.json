@@ -1,11 +1,5 @@
 {
   "name": "copy-of-taiwan-tax-ai-assistant",
-  {
-  "name": "taiwan-tax-ai-assistant",
-  "homepage": "https://evonne-yu.github.io/Taiwan-Tax-AI-Assistant/", 
-  "version": "0.1.0",
-  ...
-}
   "private": true,
   "version": "0.0.0",
   "type": "module",
